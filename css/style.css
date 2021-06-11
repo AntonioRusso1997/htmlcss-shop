@@ -15,8 +15,7 @@ body {
     height: 400px;
     display: inline-block;
     margin-top: 10px;
-    margin-right: 5px;
-    background-color: yellow;
+    margin-right: 5px;   
 }
 
 img {
@@ -62,4 +61,31 @@ img {
     background-color: green;
     color: white;
     padding: 2px;
+}
+
+.brand {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    font-size: 13px;
+}
+
+.product-name {
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+}
+
+.price {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 14px;
+    color: red;
+}
+
+del {
+    color: black;
+    margin-left: 2px;
+
 }
